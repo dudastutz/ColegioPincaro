@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  integrity="sha512-wFU7gxH2K78HTU9LM4Ev0uV8H4u/7nmnAAmcUJGvNz/1rj8MG9Wyxy2mv8RA5qvQWhzR4sOZfWQfPa8Rg41fjQ=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+  <link rel="stylesheet" href="style.css">
+  <script src="paginaInicial.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <title>Colégio Píncaro - Página inicial</title>
+
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="./brasaoPincaro1.png" class="header_brasao"></img></div>
+    <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+    <nav id="menu">
+      <a href="#cursos" class="menu-item">Cursos</a>
+      <a href="#contato" class="menu-item">Contato</a>
+      <a href="proposta" class="menu-item">Proposta</a>
+      <a href="#login" class="menu-item">Login</a>
+      
+    </nav>
+  </header>
+
+ 
+   
+
+  <section class="video">
+    <h2 class="quem-somos">Quem somos?</h2>
+    <div class="video-container">
+      <div class="video-text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum explicabo obcaecati, hic repudiandae, harum aperiam minima similique debitis quas quos doloremque reiciendis veniam magnam. Illo consectetur ullam odit esse accusamus.</p>
+      </div>
+      <div class="video-content">
+        <div>(vídeo)</div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="cursos">
+    <h2 class="courses-title">Cursos</h2>
+    <div class="courses">
+        <a href="fundamental1.html" class="course" style="background-image: url('http://2.bp.blogspot.com/-WhAdcjbcXRw/UfXgsxS7upI/AAAAAAAAByM/rRT2ivwvAIo/s1600/Fra.jpg');">Ensino Fundamental I</a>
+        <a href="fundamental2.html" class="course" style="background-image: url('http://3.bp.blogspot.com/-8ur1x3TAwLo/U0K-3-hOEMI/AAAAAAAAATs/50XpPv-B3SQ/s1600/Nuestra+Senora+del+Buen+Suceso.jpg');">Ensino Fundamental II</a>
+        <a href="#" class="course" style="background-image: url('https://osaopaulo.org.br/wp-content/uploads/2022/04/R232-D-PCO-Mae-do-Bom-Conselho-500x442.jpg');">Em breve: Ensino Infantil</a>
+    </div>
+    <button class="courses-button">Conheça nosso material</button>
+</section>
+
+<section class="differentials">
+  <h2>Alguns diferenciais</h2>
+  <ul>
+      <li class="diferencial">
+          <h3>Lorem Ipsum</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, molestias! Laboriosam provident vel perferendis, magni quibusdam sunt quae voluptatibus officiis, ipsa corporis quos soluta quasi deserunt alias beatae? Unde, adipisci.</p>
+          <div class="foto-dif"></div>
+      </li>
+      <li class="diferencial">
+          <h3>Lorem Ipsum</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, molestias! Laboriosam provident vel perferendis, magni quibusdam sunt quae voluptatibus officiis, ipsa corporis quos soluta quasi deserunt alias beatae? Unde, adipisci.</p>
+          <div class="foto-dif"></div> <!-- Ajustei essa div para dentro do <li> -->
+      </li>
+  </ul>
+</section>
+
+
+<section class="testimonials">
+  <h2>Depoimentos</h2>
+  <div class="testimonials-container">
+    <div class="testimonial active">
+      <p>"O colégio mudou a vida dos meus filhos! Recomendo muito."</p>
+      <strong>— Ana Paula</strong>
+    </div>
+    <div class="testimonial">
+      <p>"Professores excelentes e um ambiente acolhedor."</p>
+      <strong>— Carlos Mendes</strong>
+    </div>
+    <div class="testimonial">
+      <p>"Minha filha aprendeu valores e teve um ótimo desempenho."</p>
+      <strong>— Joana Lima</strong>
+    </div>
+  </div>
+  <div class="testimonials-navigation">
+    <span class="prev">&larr;</span>
+    <span class="next">&rarr;</span>
+  </div>
+</section>
+
+
+
+<footer class="footer" id="contato">
+  <section>
+  <p><span class="icon">📞</span> Telefone</p>
+  <p><span class="icon">✉️</span> Email</p>
+  <p><span class="icon">📍</span> Localização</p>
+  <p><span class="icon">📷</span> Instagram</p>
+</section>
+
+</footer>
+
+
+
+
+
+
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('menu');
+      menu.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
