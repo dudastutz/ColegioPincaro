@@ -240,14 +240,14 @@ section {
     display: block;
   }
   
-  nav {
+   nav {
     display: none;
     flex-direction: column;
     position: absolute;
-    background-color: #0B0B75;
+    background-color: #10245A;
     top: 60px;
     right: 0;
-    width: 100%;
+    width: 100px;
     text-align: center;
   }
 
